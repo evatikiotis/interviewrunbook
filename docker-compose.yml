@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+
+  frontend:
+    build: ./interviewrunbook
+    image: frontend
+    restart: on-failure
+    tty: true
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+
+
+# docker cp 902ecb729fd6:/usr/src/.next ./
+
+
+
+
+
