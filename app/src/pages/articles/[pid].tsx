@@ -1,24 +1,13 @@
 import Markdown from 'react-markdown'
 import { promises as fs } from 'fs';
-import rehypeKatex from 'rehype-katex'
-import remarkMath from 'remark-math'
 import 'katex/dist/katex.min.css'
-import { LightAsync as SyntaxHighlighter } from 'react-syntax-highlighter';
-import 'katex/dist/katex.min.css'; // Import the Katex CSS for math rendering
 
-// Custom renderer for syntax highlighting
-const renderers = {
-  code({ language, value }:{language:any, value:any}) {
-    return (
-      <SyntaxHighlighter language={language} children={value} />
-    );
-  }
-};
+
 
 
 export default function Article(props:any) {
     return (
-        <Markdown remarkPlugins={[remarkMath]} rehypePlugins={[rehypeKatex]}>{props.article}</Markdown>
+        <Markdown>{props.article}</Markdown>
     );
 }
 
