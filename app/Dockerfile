@@ -7,7 +7,7 @@ FROM node:alpine
 RUN mkdir -p /usr/src
 WORKDIR /usr/src
 # copy source files
-COPY . /usr/src
+COPY ../interviewrunbook /usr/src
 
 # install dependencies
 RUN npm install
