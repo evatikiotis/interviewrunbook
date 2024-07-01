@@ -12,16 +12,17 @@ export default function Article(props:any) {
 }
 
 export async function getStaticProps({params}:{params:any}) {
-    const article = await fs.readFile("./src/articles/"+params.pid,  "utf8");
+    const article = await fs.readFile("./src/markdown-pages/articles/"+params.pid,  "utf8");
     console.log(article)
     return {props: {article}};
   
   }
   
   export async function getStaticPaths() {
-    let paths =  (await fs.readdir("./src/articles")).map(p => "/articles/"+p)
+    let paths =  (await fs.readdir("./src/markdown-pages/articles")).map(p => "/articles/"+p)
     console.log("psths to render:", paths);
     return { paths, fallback: true }
+
   }
   
   
