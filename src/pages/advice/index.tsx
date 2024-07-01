@@ -35,7 +35,7 @@ export default function ArticlesList(props: any) {
 // It won't be called on client-side, so you can even do
 // direct database queries. See the "Technical details" section.
 export async function getStaticProps() {
-  return {props: {articles: await readDirectory("./src/markdown-pages/advice")}};
+  return {props: {articles: await readDirectory("./src/markdown-pages/articles")}};
 }
 
 async function readDirectory(path: any) {
