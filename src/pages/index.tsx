@@ -6,7 +6,7 @@ export default function Home(props:any) {
 }
 
 
-export async function getStaticProps({params}:{params:any}) {
+export async function getStaticProps() {
     const article = await fs.readFile("./src/markdown-pages/home.md",  "utf8");
     console.log(article)
     return {props: {article}};
