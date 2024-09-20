@@ -1,14 +1,41 @@
-# interviewrunbook
+# Website
 
-a safe place to code
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-## Introduction
+### Installation
 
-Preparing for Software Engineering Jobs is a tough and difficult process that engineers go
-through several times in their career. This repo is meant to help engineers with their preparation
-by providing a easy way to document their progress and their experiences. Using markdown files we
-create software enginneering articles hosted onn github for free
+```
+$ yarn
+```
 
-## Cotributing
+### Local Development
 
-Make your PR with your code changes or your first article!
+```
+$ yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
