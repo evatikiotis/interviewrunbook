@@ -1,5 +1,5 @@
 {
-  "blogBasePath": "/interviewrunbook/blog",
+  "blogBasePath": "/blog",
   "blogTitle": "Blog",
-  "authorsListPath": "/interviewrunbook/blog/authors"
+  "authorsListPath": "/blog/authors"
 }

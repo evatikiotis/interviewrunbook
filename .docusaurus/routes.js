@@ -3,155 +3,190 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/interviewrunbook/blog',
-    component: ComponentCreator('/interviewrunbook/blog', '5fb'),
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
     exact: true
   },
   {
-    path: '/interviewrunbook/blog/archive',
-    component: ComponentCreator('/interviewrunbook/blog/archive', '90b'),
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
     exact: true
   },
   {
-    path: '/interviewrunbook/blog/authors',
-    component: ComponentCreator('/interviewrunbook/blog/authors', '51c'),
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
     exact: true
   },
   {
-    path: '/interviewrunbook/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/interviewrunbook/blog/authors/all-sebastien-lorber-articles', '9d1'),
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
     exact: true
   },
   {
-    path: '/interviewrunbook/blog/authors/yangshun',
-    component: ComponentCreator('/interviewrunbook/blog/authors/yangshun', 'b33'),
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
     exact: true
   },
   {
-    path: '/interviewrunbook/blog/first-blog-post',
-    component: ComponentCreator('/interviewrunbook/blog/first-blog-post', '855'),
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
     exact: true
   },
   {
-    path: '/interviewrunbook/blog/long-blog-post',
-    component: ComponentCreator('/interviewrunbook/blog/long-blog-post', 'bfa'),
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
     exact: true
   },
   {
-    path: '/interviewrunbook/blog/mdx-blog-post',
-    component: ComponentCreator('/interviewrunbook/blog/mdx-blog-post', '715'),
+    path: '/blog',
+    component: ComponentCreator('/blog', 'b2f'),
     exact: true
   },
   {
-    path: '/interviewrunbook/blog/tags',
-    component: ComponentCreator('/interviewrunbook/blog/tags', 'df3'),
+    path: '/blog/archive',
+    component: ComponentCreator('/blog/archive', '182'),
     exact: true
   },
   {
-    path: '/interviewrunbook/blog/tags/docusaurus',
-    component: ComponentCreator('/interviewrunbook/blog/tags/docusaurus', '16f'),
+    path: '/blog/authors',
+    component: ComponentCreator('/blog/authors', '0b7'),
     exact: true
   },
   {
-    path: '/interviewrunbook/blog/tags/facebook',
-    component: ComponentCreator('/interviewrunbook/blog/tags/facebook', '641'),
+    path: '/blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '4a1'),
     exact: true
   },
   {
-    path: '/interviewrunbook/blog/tags/hello',
-    component: ComponentCreator('/interviewrunbook/blog/tags/hello', '962'),
+    path: '/blog/authors/yangshun',
+    component: ComponentCreator('/blog/authors/yangshun', 'a68'),
     exact: true
   },
   {
-    path: '/interviewrunbook/blog/tags/hola',
-    component: ComponentCreator('/interviewrunbook/blog/tags/hola', '51c'),
+    path: '/blog/first-blog-post',
+    component: ComponentCreator('/blog/first-blog-post', '89a'),
     exact: true
   },
   {
-    path: '/interviewrunbook/blog/welcome',
-    component: ComponentCreator('/interviewrunbook/blog/welcome', '4f4'),
+    path: '/blog/long-blog-post',
+    component: ComponentCreator('/blog/long-blog-post', '9ad'),
     exact: true
   },
   {
-    path: '/interviewrunbook/markdown-page',
-    component: ComponentCreator('/interviewrunbook/markdown-page', '534'),
+    path: '/blog/mdx-blog-post',
+    component: ComponentCreator('/blog/mdx-blog-post', 'e9f'),
     exact: true
   },
   {
-    path: '/interviewrunbook/docs',
-    component: ComponentCreator('/interviewrunbook/docs', '65a'),
+    path: '/blog/tags',
+    component: ComponentCreator('/blog/tags', '287'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/docusaurus',
+    component: ComponentCreator('/blog/tags/docusaurus', '704'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/facebook',
+    component: ComponentCreator('/blog/tags/facebook', '858'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/hello',
+    component: ComponentCreator('/blog/tags/hello', '299'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/hola',
+    component: ComponentCreator('/blog/tags/hola', '00d'),
+    exact: true
+  },
+  {
+    path: '/blog/welcome',
+    component: ComponentCreator('/blog/welcome', 'd2b'),
+    exact: true
+  },
+  {
+    path: '/markdown-page',
+    component: ComponentCreator('/markdown-page', '3d7'),
+    exact: true
+  },
+  {
+    path: '/docs',
+    component: ComponentCreator('/docs', '733'),
     routes: [
       {
-        path: '/interviewrunbook/docs',
-        component: ComponentCreator('/interviewrunbook/docs', 'da5'),
+        path: '/docs',
+        component: ComponentCreator('/docs', '7e6'),
         routes: [
           {
-            path: '/interviewrunbook/docs',
-            component: ComponentCreator('/interviewrunbook/docs', '04c'),
+            path: '/docs',
+            component: ComponentCreator('/docs', 'ba6'),
             routes: [
               {
-                path: '/interviewrunbook/docs/category/tutorial---basics',
-                component: ComponentCreator('/interviewrunbook/docs/category/tutorial---basics', 'f88'),
+                path: '/docs/category/tutorial---basics',
+                component: ComponentCreator('/docs/category/tutorial---basics', '20e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/interviewrunbook/docs/category/tutorial---extras',
-                component: ComponentCreator('/interviewrunbook/docs/category/tutorial---extras', 'eff'),
+                path: '/docs/category/tutorial---extras',
+                component: ComponentCreator('/docs/category/tutorial---extras', '9ad'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/interviewrunbook/docs/intro',
-                component: ComponentCreator('/interviewrunbook/docs/intro', 'ad4'),
+                path: '/docs/intro',
+                component: ComponentCreator('/docs/intro', '61d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/interviewrunbook/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/interviewrunbook/docs/tutorial-basics/congratulations', '1b7'),
+                path: '/docs/tutorial-basics/congratulations',
+                component: ComponentCreator('/docs/tutorial-basics/congratulations', '458'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/interviewrunbook/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/interviewrunbook/docs/tutorial-basics/create-a-blog-post', '831'),
+                path: '/docs/tutorial-basics/create-a-blog-post',
+                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '108'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/interviewrunbook/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/interviewrunbook/docs/tutorial-basics/create-a-document', '493'),
+                path: '/docs/tutorial-basics/create-a-document',
+                component: ComponentCreator('/docs/tutorial-basics/create-a-document', '8fc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/interviewrunbook/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/interviewrunbook/docs/tutorial-basics/create-a-page', 'd1e'),
+                path: '/docs/tutorial-basics/create-a-page',
+                component: ComponentCreator('/docs/tutorial-basics/create-a-page', '951'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/interviewrunbook/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/interviewrunbook/docs/tutorial-basics/deploy-your-site', '644'),
+                path: '/docs/tutorial-basics/deploy-your-site',
+                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', '4f5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/interviewrunbook/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/interviewrunbook/docs/tutorial-basics/markdown-features', '24b'),
+                path: '/docs/tutorial-basics/markdown-features',
+                component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'b05'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/interviewrunbook/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/interviewrunbook/docs/tutorial-extras/manage-docs-versions', 'c09'),
+                path: '/docs/tutorial-extras/manage-docs-versions',
+                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', '978'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/interviewrunbook/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/interviewrunbook/docs/tutorial-extras/translate-your-site', '941'),
+                path: '/docs/tutorial-extras/translate-your-site',
+                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', 'f9a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -162,8 +197,8 @@ export default [
     ]
   },
   {
-    path: '/interviewrunbook/',
-    component: ComponentCreator('/interviewrunbook/', 'a09'),
+    path: '/',
+    component: ComponentCreator('/', 'e5f'),
     exact: true
   },
   {

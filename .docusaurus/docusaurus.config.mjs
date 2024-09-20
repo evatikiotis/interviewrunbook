@@ -8,7 +8,7 @@ export default {
   "tagline": "Smash your interviews",
   "favicon": "img/favicon.ico",
   "url": "https://evatikiotis.github.io",
-  "baseUrl": "/interviewrunbook/",
+  "baseUrl": "/",
   "organizationName": "evatikiotis",
   "projectName": "interviewrunbook",
   "onBrokenLinks": "throw",
