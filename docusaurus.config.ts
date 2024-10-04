@@ -66,7 +66,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'interviewrunbook',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -76,7 +76,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Runbook',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
